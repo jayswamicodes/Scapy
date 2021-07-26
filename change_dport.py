@@ -13,10 +13,6 @@ pcap = argsc.pcap
 dport= argsc.dport
 new_port = argsc.new_port
 
-load_layer("http")
-pcap = argsc.pcap
-dport= argsc.dport
-
 # Load the packets from pcap
 pkts=rdpcap(str(pcap))
 
